@@ -1,0 +1,589 @@
+@media only screen and (max-width: 1900px) {
+    .control {
+        margin-left: 3%;
+    }
+}
+@media only screen and (max-width: 1610px) {
+    .control {
+        margin-right: 10px;
+        width: 80%;
+    }
+    .small-p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1275px) {
+    .first-ul {
+        width: 100%;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        background: linear-gradient(rgb(88, 28, 28), rgb(53, 22, 22), rgb(43, 12, 12));
+        box-shadow: 0px 1px #642410;
+        display: none;
+        border-radius: 2px;
+    }
+    .img-banner1, .img-banner2, .img-banner3 {
+        width: 85%;
+    }
+    .contact {
+        display: flex;
+        left: 10%;
+        gap: 100px;
+        align-items: center;
+        padding-top: 10px;
+        position: absolute;
+    }
+    .add-btn {
+        width: 43px;
+    }
+    .control {
+        margin-right: 6%;
+    }
+    .small-p {
+        font-size: 16px;
+    }
+   
+    .first-ul li {
+       display: flex;
+       justify-content: end; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .first-list  {
+        color: rgba(221, 211, 211, 0.87);
+        font-size: 18px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .menu {
+        display: block;
+        margin-left: 1px;
+    }
+    .active {
+        display: block;
+    }
+    .main {
+        margin-top: 3rem;
+    }
+    .container {
+        padding-right: 0%;
+    }
+    .content-2 {
+        padding-right: 7.5%;
+    }
+    .header {
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 1175px) {
+    .control {
+        width: 70%;
+        filter: drop-shadow(0px 0px rgb(73, 73, 73));
+    }
+    .p-2 {
+        font-size: 23px;
+    }
+    .logitech {
+        font-size: 30px;
+    }
+    .p-3 {
+        font-size: 30px;
+    }
+    .p-5 {
+        font-size: 20px;
+    }
+    .content-1 {
+        margin-left: 0%;
+    }
+  
+}
+@media only screen and (max-width: 1110px) {
+    .p-2 {
+        font-size: 20px;
+    }
+    .logitech {
+        font-size: 25px;
+    }
+    .p-3 {
+        font-size: 25px;
+    }
+    .p-5 {
+        font-size: 20px;
+    }
+    .control {
+        margin-right: 15px;
+    }
+    .contact {
+        display: flex;
+        left: 5%;
+        gap: 50px;
+        align-items: center;
+        padding-top: 10px;
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .card-title {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .p-2 {
+        font-size: 17px;
+    }
+    .logitech {
+        font-size: 22px;
+    }
+    .p-3 {
+        font-size: 22px;
+    }
+    .p-5 {
+        font-size: 20px;
+    }
+    .grid-card {
+        display: flex;
+        max-width: 1050px;
+        margin: 80px auto;
+    }
+}
+@media only screen and (max-width: 945px) {
+    .grid-card {
+        display: flex;
+        max-width: 1000px;
+        margin: 80px auto;
+    }
+    .card-1, .card-2, .card-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .card-title {
+        font-size: 24px;
+        padding-bottom: 15px;
+        font-family: "Mukta", "Arial";
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .card-content {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .card-1, .card-2 {
+        border-right: 1px dashed rgb(194, 192, 192);
+        padding-right: 30px;
+    }
+    .card-1 {
+        margin-left: 30px;
+    }
+}
+@media only screen and (max-width: 870px) {
+    .banner {
+        width: 60%;
+    }
+    .banner {
+        margin-right: 30px;
+    }
+}
+@media only screen and (max-width: 840px) {
+    .p-2 {
+        margin-bottom: 5px;
+    }
+    .logitech {
+        margin-bottom: 5px;
+    }
+    .p-3 {
+        margin-bottom: 6px;
+    }
+    .p-4 {
+        margin-bottom: 5px;
+    }
+    .p-5 {
+        margin-bottom: 7px;
+    }
+    .p-1 {
+        margin-bottom: 15px;
+    }
+    .small-p {
+        font-size: 12px;
+    }
+    .first-list {
+        font-size: 16px;
+        margin-bottom: -10px;
+    }
+    .first-ul li a{
+        padding-bottom: 8px;
+    }
+    .control {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .top {
+        left: 40%;
+        top: 70%;
+    }
+    .contact {
+        left: 15%;
+    }
+    .btn-banner {
+        padding: 20px 25px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .main {
+        flex-direction: column-reverse;
+    }
+    .small-p {
+        font-size: 16px;
+    }
+    .p-2 {
+        font-size: 30px;
+    }
+    .logitech {
+        font-size: 40px;
+    }
+    .p-3 {
+        font-size: 40px;
+    }
+    .p-5 {
+        font-size: 26px;
+    }
+    .content-1 {
+        flex-basis: 100%;
+        margin-top: 6rem;
+        margin-left: 7%;
+    }
+    .content-1 {
+        margin-left: -10%;
+    }
+    .color-box {
+        padding-right: -10%;
+    }
+    .specifications-div {
+        margin-left: 4%;
+    }
+
+}
+@media only screen and (max-width: 662px) {
+    .top {
+        margin-top: 6.5%;
+    }
+    .content-1 {
+        left: 6.5%;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .add-btn {
+        width: 40px;
+    }
+    .small-p {
+        font-size: 13px;
+    }
+    .logitech {
+        font-size: 30px;
+    }
+    .p-2 {
+        font-size: 25px;
+    }
+    .p-3 {
+        font-size: 25px;
+    }
+    .p-4 {
+        font-size: 20px;
+    }
+    .p-5 {
+        font-size: 22px;
+    }
+    .btn {
+        letter-spacing: 0.2px;
+        font-size: 15px;
+    }
+    .content-1::after {
+        left: -35px;
+    }
+    .content-1 {
+        margin-left: -25%;
+    }
+    .first-list {
+        font-size: 15px;
+    }
+    .contact {
+        left: 8%;
+    }
+    .btn-banner {
+        padding: 15px 20px;
+    }
+    .fa-play {
+        font-size: 20px;
+    }
+    .card-title {
+        font-size: 21px;
+    }
+}
+@media only screen and (max-width: 592px) {
+    .title-footer::after {
+        content: '';
+        background: #333333;
+        width: 100px;
+        height: 7px;
+        position: absolute;
+        left: 50%;
+        top: 7.15rem;
+        transform: translate(-50%, -50%);
+        border-radius: 1px;
+    }
+}
+@media only screen and (max-width: 555px) {
+    .content-1 {
+        margin-left: -20%;
+    }
+    .container {
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .contact {
+        left: 3%;
+    }
+  
+}
+@media only screen and (max-width: 500px) {
+    .control {
+        width: 70%;
+        filter: drop-shadow(0px 0px rgb(73, 73, 73));
+    }
+    .add-btn {
+        width: 38px;
+    }
+    .small-p {
+        font-size: 12px;
+    }
+    .p-2 {
+        font-size: 22px;
+    }
+    .p-3 {
+        font-size: 22px;
+    }
+    .p-4 {
+        font-size: 17px;
+    }
+    .p-5 {
+        font-size: 20px;
+    }
+    .control {
+        margin-left: 0%;
+        margin-right: 25px;
+    }
+    .color-box {
+        width: 80%;
+    }
+    .p-2 {
+        font-size: 18px;
+    }
+    .p-3 {
+        font-size: 18px;
+    }
+    .p-4 {
+        font-size: 14px;
+    }
+    .p-5 {
+        font-size: 17px;
+    }
+    .content-1 {
+        margin-left: -30%;
+    }
+    .contact li a {
+        font-size: 15px;
+    }
+    .top a {
+        font-size: 15px;
+    }
+    .title-footer, .title-comments-1, .title-comments-2, .title-comments-3, .title-specifications {
+        font-size: 25px;
+    }
+    .title-footer::after {
+        content: '';
+        background: #333333;
+        width: 100px;
+        height: 7px;
+        position: absolute;
+        left: 50%;
+        top: 6.15rem;
+        transform: translate(-50%, -50%);
+        border-radius: 1px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .grid-card {
+        flex-direction: column;
+        max-width: 310px;
+    }
+    .card-1, .card-2 {
+        border-bottom: 1px dashed rgb(194, 192, 192);
+        padding-bottom: 20px;
+        border-right: none;
+    }
+    .title-1 {
+        line-height: 28px;
+    }
+    .cardtitle-2 {
+        transform: translate(30%, 0%);
+    }
+    .contact {
+        gap: 30px;
+    }
+}
+@media only screen and (max-width: 429px) {
+    .p-2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .p-1 {
+        margin-bottom: 7px;
+    }
+    .logitech {
+        font-size: 27px;
+    }
+    .p-3 {
+        font-size: 16px;
+    }
+    .p-4 {
+        font-size: 14px;
+    }
+    .p-5 {
+        font-size: 17px;
+    }
+    .content-1 {
+        margin-left: -20%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .physical-specifications, .technical-specifications {
+        max-width: 350px;
+    }
+    .physical-specifications-title, .technical-specifications-title {
+        font-size: 20px;
+    }
+    .technical-specifications-content-title, .physical-specifications-content-title {
+        font-size: 18px;
+    }
+    .technical-specifications-content, .physical-specifications-content {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .content-1 {
+        margin-left: -15%;
+    }
+    .contact li a {
+        font-size: 12.5px;
+    }
+    .top a {
+        font-size: 12.5px;
+    }
+    .created-by {
+        font-size: 19px;
+    }
+    .number-contact {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 359px) {
+    .title-comments-3:after {
+        content: '';
+        background: #333333;
+        width: 100px;
+        height: 7px;
+        position: absolute;
+        left: 50%;
+        top: 7.3rem;
+        transform: translate(-50%, -50%);
+        border-radius: 1px;
+    }
+}
+@media only screen and (max-width: 349px) {
+    .content-1 {
+        margin-left: -4%;
+        max-width: 250px;
+       
+    }
+    .title-comments-1:after {
+        content: '';
+        background: #333333;
+        width: 100px;
+        height: 7px;
+        position: absolute;
+        left: 50%;
+        top: 9.9rem;
+        transform: translate(-50%, -50%);
+        border-radius: 1px;
+    }
+}
+@media only screen and (max-width: 342px) {
+    .title-comments-2:after {
+        content: '';
+        background: #333333;
+        width: 100px;
+        height: 7px;
+        position: absolute;
+        left: 50%;
+        top: 7.35rem;
+        transform: translate(-50%, -50%);
+        border-radius: 1px;
+    }
+    .banner {
+        width: 150px;
+    }
+    .btn-banner {
+        padding: 10px 15px;
+    }
+    .fa-play {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 315px) {
+    .technical-specifications-content, .physical-specifications-content {
+        font-size: 14px;
+    }
+    .technical-specifications, .physical-specifications {
+        padding-left: 7.5px;
+    }
+    .physical-specifications-title, .technical-specifications-title {
+        font-size: 17px;
+    }
+    .technical-specifications-content-title, .physical-specifications-content-title {
+        font-size: 16px;
+    }
+   
+}
+@media only screen and (max-width: 349px) {
+    .physical-specifications {
+        padding-right: 10px;
+    }
+    .technical-specifications {
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .info::after {
+        width: 250px;
+    }
+    .grid-card {
+        max-width: 250px;
+    }
+}
+
+
+
+
+
+
+
