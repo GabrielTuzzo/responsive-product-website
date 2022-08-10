@@ -11,6 +11,9 @@
     .small-p {
         font-size: 14px;
     }
+    .main {
+        margin: 30px 0;
+    }
 }
 @media only screen and (max-width: 1275px) {
     .first-ul {
@@ -60,7 +63,7 @@
     }
     .menu {
         display: block;
-        margin-left: 1px;
+        margin-right: 10px;
     }
     .active {
         display: block;
@@ -236,7 +239,7 @@
 @media only screen and (max-width: 750px) {
     .top {
         left: 40%;
-        top: 70%;
+        top: 72%;
     }
     .contact {
         left: 15%;
@@ -248,9 +251,13 @@
 @media only screen and (max-width: 720px) {
     .main {
         flex-direction: column-reverse;
+        margin: 10px 0;
     }
     .small-p {
         font-size: 16px;
+    }
+    .footer {
+        padding-top: 4rem;
     }
     .p-2 {
         font-size: 30px;
@@ -276,7 +283,9 @@
     .specifications-div {
         margin-left: 4%;
     }
-
+    .menu {
+        margin-right: 1px;
+    }
 }
 @media only screen and (max-width: 662px) {
     .top {
@@ -358,7 +367,10 @@
     .contact {
         left: 3%;
     }
-  
+    .top {
+        left: 37%;
+        top: 70%;
+    }
 }
 @media only screen and (max-width: 500px) {
     .control {
@@ -426,7 +438,7 @@
         border-radius: 1px;
     }
     .content-1 {
-        margin-bottom: -20%;
+        margin-bottom: -10%;
        }
 }
 @media only screen and (max-width: 480px) {
