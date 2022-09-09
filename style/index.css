@@ -447,11 +447,12 @@ nav ul li {
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     color: #000;
-    text-decoration: none;
+    text-decoration: underline;
+    transition: all .2s;
 }
 .name-creator:hover {
-    text-decoration: underline;
     cursor: pointer;
+    letter-spacing: 0.5px;
 }
 .number-contact {
     font-size: 18px;
