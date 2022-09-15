@@ -169,12 +169,12 @@ nav ul li {
 .content-1::after {
     content: '';
     width: 15px;
-    height: 103%;
+    height: 102%;
     background: linear-gradient(rgb(27, 27, 27), rgb(109, 39, 39), rgb(192, 105, 105));
     position: absolute;
     left: -45px;
     border-radius: 2px;
-    top: -1.15%;
+    top: -1.05%;
 }
 .content-2 {
     display: flex;
