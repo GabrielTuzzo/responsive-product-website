@@ -3,6 +3,6 @@ const menuDrop = document.querySelector('#dropMenu')
 
 menuDrop.addEventListener('click', () => {
     listMenu.classList.toggle("active")
-    menuDrop.classList.toggle("active")
+    menuDrop.classList.toggle("active-x")
 })
 
