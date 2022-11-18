@@ -130,6 +130,15 @@
         position: absolute;
     }
 }
+@media screen and (max-width: 1024px) {
+    .pswp__preloader {
+      position: relative;
+      left: auto;
+      top: auto;
+      margin: 0;
+      float: right;
+    }
+  }
 @media only screen and (max-width: 1000px) {
     .card-title {
         font-size: 20px;
