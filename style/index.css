@@ -586,6 +586,41 @@ nav ul li {
 .back-to-top:hover {
     text-decoration: underline;
 }
+.btns {
+    display: flex;
+}
+.last-li {
+    border-right: 1px solid #000000;
+    padding-right: 15px;
+}
+.p-btn {
+    padding-left: 0px;
+    font-size: 19.3px;
+    margin-top: 12px;
+    font-weight: 400;
+}
+.teste {
+    padding-top: 5.5px;
+}
+.brazil-flag,
+.england-flag {
+    width: 20px;
+    margin-top: 2px;
+}
+.btn-1 a,
+.btn-2 a {
+    margin-right: 3px;
+    text-decoration: none;
+}
+.btn-1 a:hover,
+.btn-2 a:hover {
+    text-decoration: underline;
+}
+.btn-1,
+.btn-2 {
+    margin-left: 5px;
+}
+
 /*----------------------------
     preloader area
 ----------------------------*/
