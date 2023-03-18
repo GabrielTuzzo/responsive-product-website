@@ -596,11 +596,11 @@ nav ul li {
 .p-btn {
     padding-left: 0px;
     font-size: 19.3px;
-    margin-top: 12px;
+    margin-top: 12.5px;
     font-weight: 400;
 }
 .teste {
-    padding-top: 5.5px;
+    padding-top: 5px;
 }
 .brazil-flag,
 .england-flag {
@@ -611,6 +611,7 @@ nav ul li {
 .btn-2 a {
     margin-right: 3px;
     text-decoration: none;
+    font-size: 17px;
 }
 .btn-1 a:hover,
 .btn-2 a:hover {
