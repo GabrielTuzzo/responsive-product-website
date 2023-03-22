@@ -15,6 +15,18 @@
         margin: 30px 0;
     }
 }
+@media only screen and (max-width: 1385px) {
+    .btns {
+        margin-top: -6px;
+    }
+    .p-btn {
+        display: none !important;
+    }
+    .btn-1,
+    .btn-2 {
+    margin-left: 0;
+    }
+}
 @media only screen and (max-width: 1275px) {
     .first-ul {
         width: 100%;
@@ -80,6 +92,9 @@
     .header {
         padding-right: 0;
     }
+   .btns {
+    display: none !important;
+   }
 }
 @media only screen and (max-width: 1175px) {
     .control {
