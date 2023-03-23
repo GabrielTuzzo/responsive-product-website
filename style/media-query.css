@@ -22,6 +22,10 @@
     .p-btn {
         display: none !important;
     }
+    .both-btn {
+        margin-top: -25px;
+        position: absolute;
+    }
     .btn-1,
     .btn-2 {
     margin-left: 0;
@@ -67,7 +71,7 @@
         margin-bottom: 10px;
     }
     .first-list  {
-        color: rgba(221, 211, 211, 0.87);
+        color: rgba(247, 242, 242, 0.87);
         font-size: 18px;
     }
     .logo {
@@ -92,9 +96,31 @@
     .header {
         padding-right: 0;
     }
-   .btns {
-    display: none !important;
-   }
+    .btns {
+        margin-top: -6px;
+    }
+    .both-btn {
+        margin-top: 0;
+        position: relative;
+    }
+    .btn-1,
+    .btn-2 {
+    margin-left: 0;
+    margin-top: 4px;
+    }
+    .last-li {
+        border-bottom: 0.1px solid #b4b4b4;
+        padding-bottom: 15px;
+        border-right: none;
+    }
+    nav ul li {
+        margin-left: 15px;
+    }
+    .btn-1 a,
+.btn-2 a {
+    color: rgb(226, 230, 233);
+}
+  
 }
 @media only screen and (max-width: 1175px) {
     .control {
